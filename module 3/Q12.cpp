@@ -3,6 +3,7 @@
 main()
 {
 	int id[10],i;
+	int oddsum,evensum;
 	printf("\nenter 10 namber");	
 	for(i=0;i<10;i++)
 	{
@@ -15,16 +16,21 @@ main()
 	{
 		if(id[i]%2==0)
 		{
-			printf("\nodd_namber:%d",id[i]);	
+			printf("\nodd_namber:%d",id[i]);
+			oddsum += id[i];
+				
 		}
 	}
 		for( i=0;i<=10;i++)
 	{
 		if(id[i]%2==0)
 		{
-			printf("\nevennamber:%d",id[i]);	
+			printf("\nevennamber:%d",id[i]);
+			evensum += id[i];
+				
 		}
-	
+	 
 	}
-	
+	 printf("\noddsum:%d",oddsum);
+	 printf("\nevensum:%d",evensum);
 }
