@@ -1,0 +1,12 @@
+1 .widthout reten type without parameter(argument) void getdata()
+	without-without
+
+2 .widthout reten type with parameter(argument) void getdata(int a,int b)
+	without-with
+
+3 .width reten type without parameter(argument) int getdata()
+ 	with-without
+	
+
+4. width reten type with parameter(argument) int getdata(int a, int b)
+	with-with

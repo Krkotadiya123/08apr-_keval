@@ -1,4 +1,5 @@
 //Q12.WAP to take 10 no. Input from user and find out … //
+//
 #include<stdio.h>
 main()
 {
