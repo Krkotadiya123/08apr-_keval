@@ -9,7 +9,7 @@ main()
     printf("Enter any alphabet: ");
     scanf("%c", &a);
    
-    switch (b) {
+    switch (a) {
         case 'a'||'e'||'i'||'o'||'u':
         
             printf("%c is a vowel.\n", a);
