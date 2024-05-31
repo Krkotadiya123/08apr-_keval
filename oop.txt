@@ -1,0 +1,21 @@
+opp
+===============================
+1.class
+2. object
+3. inheritance
+	-single
+	-multiple
+	-multilevel
+	-heriachical
+	-hybride
+4.encapsulation / data binding
+5.polymorphism
+
+	-methodeoverloding
+	-meth0d overriding
+6.accesss spcifire/modifier
+-public
+-private
+-protected
+
+

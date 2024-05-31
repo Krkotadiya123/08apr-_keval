@@ -2,15 +2,15 @@
 #include<stdio.h>
  main()
  {
- 	int n[10],i,sum=0,total;
- 	printf("enter namber:");
- 	scanf("%d",&total);
+ 	int n,i,sum=0;
+ 	printf("enter digit value:");
+ 		scanf("%d",&n);
 
- 	for(i=0;i<total;i++){
- 		printf("enter digit value:");
- 		scanf("%d",&n[i]);
+ 	for(i=0;i<5;i++){
+ 	
 	 
- 		sum+=n[i];
+ 		sum+=n%10;
+ 		n/=10;
 	 }
 	 printf("sum of digit = %d",sum);
  }
