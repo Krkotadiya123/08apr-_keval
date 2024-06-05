@@ -3,7 +3,7 @@ main()
 {
 	int a;
 	int namber;
-	printf("enrte namber");
+	printf("enrte nambar");
 	scanf("%d",&a);
 	
 	printf("\n1:sun");
